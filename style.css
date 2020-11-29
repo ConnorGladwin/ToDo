@@ -1,0 +1,33 @@
+/* page centering */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* input styling */
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.input-field {
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+/* button styling */
+.addBtn {
+    border-radius: 8px;
+}
+
+.no-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 3em;
+}
